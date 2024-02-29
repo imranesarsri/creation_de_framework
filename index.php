@@ -1,6 +1,5 @@
 <?php
 
-
 if (isset($_GET['action'])) {
     $Action = $_GET['action'];
     $pages = ['Home', 'Contact', 'Product'];

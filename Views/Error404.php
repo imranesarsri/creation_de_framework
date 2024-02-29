@@ -6,4 +6,4 @@ ob_start();
 
 <?php
 $Content = ob_get_clean();
-include_once('./Views/template/template.php');
+include_once('./Views/Template/Template.php');
