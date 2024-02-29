@@ -1,6 +1,3 @@
-<?php
-ob_start();
-?>
 <h1>Prodact page</h1>
 <div class="row">
     <div class="card col-4 mb-2">
@@ -64,7 +61,3 @@ ob_start();
         </div>
     </div>
 </div>
-
-<?php
-$Content = ob_get_clean();
-include_once('./Views/Template/Template.php');

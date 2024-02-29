@@ -1,6 +1,3 @@
-<?php
-ob_start();
-?>
 <h1>Contact page</h1>
 <form>
     <div class="mb-3">
@@ -18,7 +15,3 @@ ob_start();
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
-<?php
-$Content = ob_get_clean();
-include_once('./Views/Template/Template.php');
