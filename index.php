@@ -16,4 +16,4 @@ if (file_exists($viewPath)) {
 }
 $Content = ob_get_clean();
 
-include_once('./Views/Template/Template.php');
+include_once('./Views/Layout/Layout.php');
